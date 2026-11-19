@@ -12,6 +12,8 @@ SCSE3040 MLOps mini project: predict `pickup_eta_min` for cab bookings in Luckno
 
 ## Four-day ownership
 
+Original datasets: download `original-data.zip` from the [starter data release](https://github.com/rudra-sahu246/G175_MP023/releases/tag/starter-data-v1), extract its three CSVs into `data/raw/`, and verify their SHA-256 values against [the recorded checksums](reports/original_data_sha256.json). Do not open and save the originals in Excel. Neeraj will initialize DVC on Day 1; no shared DVC remote is configured yet.
+
 | Day | Owner | Responsibility |
 | --- | --- | --- |
 | 1 | Neeraj | Repository/data setup, seven data checks, cleaning, DVC |
