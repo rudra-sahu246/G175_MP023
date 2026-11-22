@@ -1,0 +1,27 @@
+data:
+  train_path: "data/raw/train.csv"
+  later_path: "data/raw/later.csv"
+  holdout_path: "data/raw/holdout_features.csv"
+  processed_train_path: "data/processed/train_clean.csv"
+
+target:
+  column: "pickup_eta_min"
+
+features:
+  - "drivers_nearby"
+  - "distance_to_driver_km"
+  - "hour"
+  - "rain_mm"
+  - "surge"
+  - "road_closures"
+  - "car_type"
+  - "zone"
+
+training:
+  random_state: 42
+
+tracking:
+  experiment_name: "MP023_Cab_Pickup_Time"
+
+monitoring:
+  reference_data: "data/processed/train_clean.csv"
