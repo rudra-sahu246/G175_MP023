@@ -1,0 +1,377 @@
+{
+    "train.csv": {
+        "file": "data\\raw\\train.csv",
+        "rows": 1034,
+        "columns": 12,
+        "column_names": [
+            "record_id",
+            "date",
+            "drivers_nearby",
+            "distance_to_driver_km",
+            "hour",
+            "rain_mm",
+            "surge",
+            "road_closures",
+            "car_type",
+            "zone",
+            "actual_pickup_after_min",
+            "pickup_eta_min"
+        ],
+        "missing_values": {
+            "record_id": 0,
+            "date": 0,
+            "drivers_nearby": 0,
+            "distance_to_driver_km": 0,
+            "hour": 0,
+            "rain_mm": 0,
+            "surge": 0,
+            "road_closures": 0,
+            "car_type": 0,
+            "zone": 0,
+            "actual_pickup_after_min": 0,
+            "pickup_eta_min": 0
+        },
+        "duplicate_rows": 34,
+        "numeric_statistics": {
+            "drivers_nearby": {
+                "count": 1034.0,
+                "mean": 20.342359767891683,
+                "std": 11.752646079766468,
+                "min": 0.0,
+                "25%": 10.0,
+                "50%": 20.5,
+                "75%": 31.0,
+                "max": 40.0
+            },
+            "distance_to_driver_km": {
+                "count": 1034.0,
+                "mean": 4.055996131528046,
+                "std": 2.264031139999886,
+                "min": 0.13,
+                "25%": 2.0524999999999998,
+                "50%": 4.125,
+                "75%": 5.96,
+                "max": 8.0
+            },
+            "hour": {
+                "count": 1034.0,
+                "mean": 11.334622823984526,
+                "std": 6.652356248883067,
+                "min": 0.0,
+                "25%": 6.0,
+                "50%": 11.0,
+                "75%": 17.0,
+                "max": 23.0
+            },
+            "rain_mm": {
+                "count": 1034.0,
+                "mean": 24.07872340425532,
+                "std": 13.51986283615034,
+                "min": 0.1,
+                "25%": 14.725,
+                "50%": 21.2,
+                "75%": 35.3,
+                "max": 50.0
+            },
+            "surge": {
+                "count": 1034.0,
+                "mean": 2.015531914893617,
+                "std": 0.5866590044144967,
+                "min": 1.0,
+                "25%": 1.5125,
+                "50%": 2.05,
+                "75%": 2.51,
+                "max": 3.0
+            },
+            "road_closures": {
+                "count": 1034.0,
+                "mean": -49.29110251450677,
+                "std": 223.0476387590671,
+                "min": -999.0,
+                "25%": 1.0,
+                "50%": 3.0,
+                "75%": 4.0,
+                "max": 6.0
+            },
+            "actual_pickup_after_min": {
+                "count": 1034.0,
+                "mean": 20.69787234042553,
+                "std": 5.417307186517739,
+                "min": 7.1,
+                "25%": 16.825,
+                "50%": 20.4,
+                "75%": 24.5,
+                "max": 37.1
+            },
+            "pickup_eta_min": {
+                "count": 1034.0,
+                "mean": 22.63665377176016,
+                "std": 20.413912004138993,
+                "min": 7.5,
+                "25%": 16.9,
+                "50%": 20.5,
+                "75%": 24.675,
+                "max": 293.0
+            }
+        },
+        "date_range": {
+            "start": "2026-01-01",
+            "end": "2026-06-30",
+            "invalid_dates": 0
+        },
+        "categories": {
+            "car_type": {
+                "sedan": 394,
+                "auto": 381,
+                "mini": 259
+            },
+            "zone": {
+                "Old City": 378,
+                "Tech Park": 329,
+                "Airport": 327
+            }
+        }
+    },
+    "later.csv": {
+        "file": "data\\raw\\later.csv",
+        "rows": 300,
+        "columns": 12,
+        "column_names": [
+            "record_id",
+            "date",
+            "drivers_nearby",
+            "distance_to_driver_km",
+            "hour",
+            "rain_mm",
+            "surge",
+            "road_closures",
+            "car_type",
+            "zone",
+            "actual_pickup_after_min",
+            "pickup_eta_min"
+        ],
+        "missing_values": {
+            "record_id": 0,
+            "date": 0,
+            "drivers_nearby": 0,
+            "distance_to_driver_km": 0,
+            "hour": 0,
+            "rain_mm": 0,
+            "surge": 0,
+            "road_closures": 0,
+            "car_type": 0,
+            "zone": 0,
+            "actual_pickup_after_min": 0,
+            "pickup_eta_min": 0
+        },
+        "duplicate_rows": 0,
+        "numeric_statistics": {
+            "drivers_nearby": {
+                "count": 300.0,
+                "mean": 19.13,
+                "std": 11.572937235385863,
+                "min": 0.0,
+                "25%": 9.0,
+                "50%": 19.0,
+                "75%": 29.0,
+                "max": 40.0
+            },
+            "distance_to_driver_km": {
+                "count": 300.0,
+                "mean": 8.084200000000001,
+                "std": 2.1839658229283407,
+                "min": 4.05,
+                "25%": 6.49,
+                "50%": 8.0,
+                "75%": 10.0,
+                "max": 11.87
+            },
+            "hour": {
+                "count": 300.0,
+                "mean": 11.356666666666667,
+                "std": 6.45872841960523,
+                "min": 0.0,
+                "25%": 6.0,
+                "50%": 11.0,
+                "75%": 17.0,
+                "max": 23.0
+            },
+            "rain_mm": {
+                "count": 300.0,
+                "mean": 25.188333333333333,
+                "std": 15.043527610419053,
+                "min": 0.0,
+                "25%": 11.674999999999999,
+                "50%": 25.45,
+                "75%": 37.6,
+                "max": 50.0
+            },
+            "surge": {
+                "count": 300.0,
+                "mean": 1.9456000000000002,
+                "std": 0.5735537052820855,
+                "min": 1.01,
+                "25%": 1.41,
+                "50%": 2.01,
+                "75%": 2.4,
+                "max": 2.99
+            },
+            "road_closures": {
+                "count": 300.0,
+                "mean": 2.96,
+                "std": 1.8717401986486955,
+                "min": 0.0,
+                "25%": 1.0,
+                "50%": 3.0,
+                "75%": 5.0,
+                "max": 6.0
+            },
+            "actual_pickup_after_min": {
+                "count": 300.0,
+                "mean": 31.48,
+                "std": 8.527739509220703,
+                "min": 14.7,
+                "25%": 25.075000000000003,
+                "50%": 30.9,
+                "75%": 36.3,
+                "max": 57.0
+            },
+            "pickup_eta_min": {
+                "count": 300.0,
+                "mean": 31.499000000000002,
+                "std": 8.522974989731303,
+                "min": 14.9,
+                "25%": 25.075000000000003,
+                "50%": 30.8,
+                "75%": 36.225,
+                "max": 56.9
+            }
+        },
+        "date_range": {
+            "start": "2026-07-01",
+            "end": "2026-08-31",
+            "invalid_dates": 0
+        },
+        "categories": {
+            "car_type": {
+                "sedan": 118,
+                "auto": 107,
+                "mini": 75
+            },
+            "zone": {
+                "Old City": 122,
+                "Airport": 102,
+                "Tech Park": 76
+            }
+        }
+    },
+    "holdout_features.csv": {
+        "file": "data\\raw\\holdout_features.csv",
+        "rows": 250,
+        "columns": 10,
+        "column_names": [
+            "record_id",
+            "date",
+            "drivers_nearby",
+            "distance_to_driver_km",
+            "hour",
+            "rain_mm",
+            "surge",
+            "road_closures",
+            "car_type",
+            "zone"
+        ],
+        "missing_values": {
+            "record_id": 0,
+            "date": 0,
+            "drivers_nearby": 0,
+            "distance_to_driver_km": 0,
+            "hour": 0,
+            "rain_mm": 0,
+            "surge": 0,
+            "road_closures": 0,
+            "car_type": 0,
+            "zone": 0
+        },
+        "duplicate_rows": 0,
+        "numeric_statistics": {
+            "drivers_nearby": {
+                "count": 250.0,
+                "mean": 19.896,
+                "std": 11.546535146769456,
+                "min": 0.0,
+                "25%": 11.0,
+                "50%": 20.0,
+                "75%": 29.0,
+                "max": 40.0
+            },
+            "distance_to_driver_km": {
+                "count": 250.0,
+                "mean": 7.738440000000001,
+                "std": 2.2644833197047145,
+                "min": 4.04,
+                "25%": 5.49,
+                "50%": 8.059999999999999,
+                "75%": 9.6175,
+                "max": 11.85
+            },
+            "hour": {
+                "count": 250.0,
+                "mean": 11.892,
+                "std": 6.900929452561948,
+                "min": 0.0,
+                "25%": 6.0,
+                "50%": 12.0,
+                "75%": 18.0,
+                "max": 23.0
+            },
+            "rain_mm": {
+                "count": 250.0,
+                "mean": 24.4392,
+                "std": 15.014995963206264,
+                "min": 0.0,
+                "25%": 10.475000000000001,
+                "50%": 23.45,
+                "75%": 37.650000000000006,
+                "max": 50.0
+            },
+            "surge": {
+                "count": 250.0,
+                "mean": 1.9431999999999998,
+                "std": 0.564356405660857,
+                "min": 1.01,
+                "25%": 1.4324999999999999,
+                "50%": 1.955,
+                "75%": 2.4075,
+                "max": 2.98
+            },
+            "road_closures": {
+                "count": 250.0,
+                "mean": 3.084,
+                "std": 1.748477249140821,
+                "min": 0.0,
+                "25%": 2.0,
+                "50%": 3.0,
+                "75%": 5.0,
+                "max": 6.0
+            }
+        },
+        "date_range": {
+            "start": "2026-09-01",
+            "end": "2026-09-30",
+            "invalid_dates": 0
+        },
+        "categories": {
+            "car_type": {
+                "sedan": 101,
+                "auto": 84,
+                "mini": 65
+            },
+            "zone": {
+                "Airport": 88,
+                "Tech Park": 81,
+                "Old City": 81
+            }
+        }
+    }
+}

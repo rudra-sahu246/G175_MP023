@@ -1,0 +1,40 @@
+{
+  "original_rows": 1034,
+  "duplicates_removed": 34,
+  "sentinel_values_repaired": 54,
+  "stuck_sensor_values_repaired": 125,
+  "target_typos_repaired": 10,
+  "category_values_mapped": 0,
+  "final_rows": 1000,
+  "remaining_missing_values": {
+    "rain_mm": 125,
+    "road_closures": 54
+  },
+  "output_path": "data\\processed\\train_clean.csv",
+  "output_columns": [
+    "record_id",
+    "date",
+    "drivers_nearby",
+    "distance_to_driver_km",
+    "hour",
+    "rain_mm",
+    "surge",
+    "road_closures",
+    "car_type",
+    "zone",
+    "pickup_eta_min"
+  ],
+  "leakage_column_excluded": "actual_pickup_after_min",
+  "raw_train_sha256": "b054947a822e255fa0a005b84fd1a857566f2400bdb941a92567f862368b1fb6",
+  "selected_features": [
+    "drivers_nearby",
+    "distance_to_driver_km",
+    "hour",
+    "rain_mm",
+    "surge",
+    "road_closures",
+    "car_type",
+    "zone"
+  ],
+  "target_column": "pickup_eta_min"
+}

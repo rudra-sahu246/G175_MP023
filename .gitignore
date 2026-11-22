@@ -12,3 +12,5 @@ data/raw/later.csv
 data/processed/
 mlruns/
 mlartifacts/
+
+data/raw/holdout_features.csv
