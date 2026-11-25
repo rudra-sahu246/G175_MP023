@@ -1,0 +1,29 @@
+{
+    "registered_model": "MP023_Cab_Pickup_Time_Model",
+    "model_version": 1,
+    "alias": "champion",
+    "experiment": "RandomForest_100_Trees",
+    "run_id": "196e62e537814440aeeaea5bd3b57a47",
+    "validation_metrics": {
+        "mae": 1.420895454545455,
+        "rmse": 1.8080777751272463,
+        "r2": 0.8910783948681803
+    },
+    "parameters": {
+        "model_type": "RandomForestRegressor",
+        "n_estimators": 100,
+        "random_state": 42,
+        "n_jobs": -1
+    },
+    "features": [
+        "drivers_nearby",
+        "distance_to_driver_km",
+        "hour",
+        "rain_mm",
+        "surge",
+        "road_closures",
+        "car_type",
+        "zone"
+    ],
+    "target": "pickup_eta_min"
+}
