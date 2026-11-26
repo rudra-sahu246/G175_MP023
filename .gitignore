@@ -14,3 +14,12 @@ mlruns/
 mlartifacts/
 
 data/raw/holdout_features.csv
+
+# Local MLflow database
+mlflow.db
+
+# Generated model files
+models/*.joblib
+
+# Backup files
+*.backup

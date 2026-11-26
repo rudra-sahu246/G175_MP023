@@ -10,7 +10,7 @@
     "rain_mm": 125,
     "road_closures": 54
   },
-  "output_path": "data\\processed\\train_clean.csv",
+  "output_path": "data/processed/train_clean.csv",
   "output_columns": [
     "record_id",
     "date",
