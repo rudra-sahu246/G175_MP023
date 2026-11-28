@@ -23,3 +23,5 @@ models/*.joblib
 
 # Backup files
 *.backup
+
+v1.joblib
